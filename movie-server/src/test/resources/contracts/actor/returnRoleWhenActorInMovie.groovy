@@ -32,7 +32,7 @@ org.springframework.cloud.contract.spec.Contract.make {
     response {
         status 200
         body ([
-                acts: "true",
+                acts: true,
                 part: "Deadpool"
         ])
         headers {

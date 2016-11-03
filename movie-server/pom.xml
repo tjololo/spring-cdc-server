@@ -39,6 +39,10 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-contract-verifier</artifactId>
+        </dependency>
     </dependencies>
 
     <dependencyManagement>
@@ -65,7 +69,7 @@
                 <version>1.0.0.RELEASE</version>
                 <extensions>true</extensions>
                 <configuration>
-                    <packageWithBaseClasses>net.tjololo.poc.spring.cdc</packageWithBaseClasses>
+                    <packageWithBaseClasses>net.tjololo.poc.spring.cdc.base</packageWithBaseClasses>
                 </configuration>
             </plugin>
         </plugins>
